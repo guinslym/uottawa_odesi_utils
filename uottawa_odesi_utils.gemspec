@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = UottawaOdesiUtils::VERSION
   spec.authors       = ["Guinsly Mondesir"]
   spec.email         = ["guinslym@gmail.com"]
-  spec.summary       = %q{A library to work with uottawa ddi file }
+  spec.summary       = %q{A library to work with uottawa ddi xml file }
   spec.description   = %q{Utils library for DDI file}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/guinslym/uottawa_odesi_utils"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
