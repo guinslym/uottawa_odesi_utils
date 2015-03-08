@@ -1,6 +1,8 @@
 # UottawaOdesiUtils
 
-This is a utils library to work with DDI-xml. The purpose of this library is to ease the process of translating variable label in a document. This library will retrieve the `<lbl>` and the `<qstnLit>` value of an IDD file and will also tell if the label.size is greater than 251 caracters, that will mean that it will be chopped in SPSS. So that it will be easy to create a json file, export it to a db for a Rails/Flask app. The python27 library can be found [here:pyodesi](http://www.github.com/guinslym)
+Ceci est une librairie pour agir en tant que Helper pour travailler avec les document xml d'Odesi. Le but de cette libraire est de rendre plus facile de faire la traduction des `<lbl>` et des balises `<qstnLit>` en créant un hash que je pourrai exporter dans une base de données (Sinatra app).
+
+This is an utils library to work with DDI-xml. The purpose of this library is to ease the process of translating variable label in a document. This library will retrieve the `<lbl>` and the `<qstnLit>` value of an IDD file and will also tell if the label.size is greater than 251 caracters, that will mean that it will be chopped in SPSS. So that it will be easy to create a json file, export it to a db for a Rails/Flask app. The python27 library can be found [here:pyodesi](http://www.github.com/guinslym)
 
 ## Installation
 
