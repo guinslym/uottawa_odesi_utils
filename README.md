@@ -25,16 +25,17 @@ Or install it yourself as:
 Dealing with one Documentation file
 ```ruby
 	content = retrieve_label_and_qstnlit('esg-cycle-xx.xml')
-	pp content
+	puts content
 	=> {:label=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
 	:qstnLit=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
 	:label_warning=>false, :variable_name=>"VARIABLE_000"}
 ```
 
-Comparing to file
+Comparing two files
 ```ruby
-	content = retrieve_label_and_qstnlit('esg-cycle-xx.xml')
-	pp content
+	content = retrieve_label_and_qstnlit('esg-cycle-xx_fr.xml', 'gss-cycle-xx_en.xml')
+	#french file must be first
+	puts content
 	=> {
 	:label_en=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
 	:qstnLit_en=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
