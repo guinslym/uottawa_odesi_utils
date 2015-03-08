@@ -20,7 +20,7 @@ describe UottawaOdesiUtils do
       expect(lines.first).to be_instance_of Hash
     end
 
-    it "expecing both file (fr+en) will create a an Array of at least 79 elements" do
+    it "expecing both file (fr+en) will create an Array of at least 79 elements" do
       expect(b_lines.size).to be >= 79
     end
 
