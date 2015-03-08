@@ -45,7 +45,7 @@ Comparing to file
 Now it's easier to create a web app so that I can view the English and the French translation side-by-side and make corrections if the translation is not good enough or if the label size is greater than 251 character
 
 ##TODO
-Flask/Sinatra app to put the json in a DB
+Sinatra app to put the json in a DB
 
 ## Contributing
 
