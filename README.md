@@ -33,7 +33,7 @@ Dealing with one Documentation file
 
 Comparing two files
 ```ruby
-	content = retrieve_label_and_qstnlit('esg-cycle-xx_fr.xml', 'gss-cycle-xx_en.xml')
+	content = bilingual_files('esg-cycle-xx_fr.xml', 'gss-cycle-xx_en.xml')
 	#french file must be first
 	puts content
 	=> {

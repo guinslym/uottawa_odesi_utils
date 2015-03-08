@@ -13,5 +13,6 @@
 *.a
 mkmf.log
 
+*.gem
 #I don't know yet if the xml of statcan is public or confidential
 spec/data/*xml
