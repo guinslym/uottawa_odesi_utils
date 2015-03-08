@@ -20,9 +20,9 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency 'rspec', '~> 3.2.0'
-  spec.add_development_dependency 'nokogiri', '~> 1.6.6.2'
-  spec.add_development_dependency 'rspec-nc', '~> 0.2.0'
-  spec.add_development_dependency 'guard', '~> 2.12.4'
-  spec.add_development_dependency 'guard-rspec', '~> 4.5.0'
+  spec.add_development_dependency 'rspec', '~> 3.2', '>= 3.2.0'
+  spec.add_development_dependency 'nokogiri', '~> 1.6', '>= 1.6.6.2'
+  spec.add_development_dependency 'rspec-nc', '~> 0.2', '>= 0.2.0'
+  spec.add_development_dependency 'guard', '~> 2.12', '>= 2.12.4'
+  spec.add_development_dependency 'guard-rspec', '~> 4.5', '>= 4.5.0'
 end
