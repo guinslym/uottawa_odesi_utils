@@ -40,7 +40,8 @@ Comparing two files
 	:label_fr=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
 	:qstnLit_fr=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
 	:label_warning_fr=>false, 
-	:variable_name=>"VARIABLE_000":label_en=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
+	:variable_name=>"VARIABLE_000",
+	:label_en=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
 	:qstnLit_en=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
 	:label_warning_en=>false, 
 	:variable_name=>"VARIABLE_000"}
