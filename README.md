@@ -50,6 +50,9 @@ Now it's easier to create a web app so that I can view the English and the Frenc
 ##TODO
 Sinatra app to put the json in a DB
 
+###test file
+I don't know yet if the DDI xml file that I used is a confidential one from [statcan](http://www.statcan.gc.ca/) so for this version of this gem I can't publish the xml for the testing.
+
 ## Contributing
 
 1. Fork it ( https://github.com/guinslym/uottawa_odesi_utils/fork )
